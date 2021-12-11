@@ -6,7 +6,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#/images/1440x900-fullscreen-capture.png)
+  - [Screenshot](#./images/1440x900-fullscreen-capture.png)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
