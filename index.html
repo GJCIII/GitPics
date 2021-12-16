@@ -11,7 +11,8 @@
   <!-- linking multiple stylesheets -->
   <link rel="stylesheet" media="screen and (min-width: 600px)" href="style.css">
   <link rel="stylesheet" media="screen and (max-width: 600px)" href="mobilestyle.css">
-
+  <link rel="stylesheet" media="screen and (max-width: 1024px)" href="mobilestyle.css">
+  <link rel="stylesheet" media="screen and (max-height: 720px)" href="mobilestyle.css">
   <!-- adding google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,27 +24,51 @@
 </head>
 
 <body>
-  <div class="card">
-    <div class="row"><img class="hero" src="./images/illustration-hero.svg" alt=""></div>
-    <div class="row order">Order Summary</div>
-    <div class="row songs">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you
-      like!</div>
-    <div class="row grey">
-      <div class="column1 music"><img src="./images/icon-music.svg" alt=""></div>
-      <div class="column2">
-        <div class="plan">Annual Plan</div>
-        <div class="money">$59.99/year</div>
-      </div>
-      <div class="column3 change"><a href="">Change</a> </div>
+
+  <section class="card">
+    <div class="row">
+      <img class="hero" src="./images/illustration-hero.svg" alt="person listening to headphones">
     </div>
-    <a href=""><div class="row pay"><div class="proceed">Proceed to Payment</div></div></a>
-    <div class="row cancel"><a href="">Cancel Order</a></div>
-    <div class="row attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Gilbert J. Camarillo III</a>.</div>
-  </div>
+    <div class="row order">
+      Order Summary
+    </div>
+    <div class="row songs">
+      You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you
+      like!
+    </div>
+    <div class="row grey">
+      <div class="column1 music">
+        <img src="./images/icon-music.svg" alt="music note">
+      </div>
+      <div class="column2">
+        <div class="plan">
+          Annual Plan
+        </div>
+        <div class="money">
+          $59.99/year
+        </div>
+      </div>
+      <div class="column3 change">
+        <a href="">Change</a>
+      </div>
+    </div>
 
+    <div class="row pay">
+      <div class="proceed">
+        <a href="">Proceed to Payment</a>
+      </div>
 
+      <div class="row cancel">
+        <a href="">Cancel Order</a>
+      </div>
 
+      <div class="row attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Gilbert J. Camarillo III</a>.
+      </div>
+
+    </div>
+  </section>
 </body>
 
 </html>

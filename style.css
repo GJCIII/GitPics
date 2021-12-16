@@ -141,9 +141,28 @@ body {
   color: #717fa6;
   text-align: center;
   padding-top: 35px;
+  text-decoration-line: underline;
 }
 
 .attribution {
   text-align: center;
   padding-top: 20%;
+}
+ 
+/* adding hover to anchor */
+a:hover {
+  
+  /* applied cool animation to hover element https://www.w3schools.com/cssref/css_animatable.asp */
+  animation: mymove 5s infinite;
+}
+  /* applied cool animation to hover element https://www.w3schools.com/cssref/css_animatable.asp */
+@keyframes mymove {
+  from {background-color: red;}
+  to {background-color: rgb(154, 69, 190);}
+ 
+
+}
+/* removed underline from the anchors  */
+a {
+  text-decoration:none;
 }
